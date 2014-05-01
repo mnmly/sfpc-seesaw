@@ -9,7 +9,14 @@ components: component.json
 	@component install --dev
 
 serve:
-	@NODE_PATH=lib gnode server.js
+	@NODE_PATH=lib n use 0.11.11 --harmony server.js
+
+start:
+	@NODE_ENV=production PORT=4100 forever start -c ./start-up.sh sfpc.js
+
+stop:
+	@forever stop -c ./start-up.sh sfpc.js
+
 
 install: package.json
 	@npm install
