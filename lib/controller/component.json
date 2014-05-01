@@ -1,0 +1,14 @@
+{
+  "name": "controller",
+  "dependencies": {
+    "mnmly/remap": "*",
+    "component/events": "*",
+    "component/emitter": "*"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "styles":[],
+  "locals": []
+}
+

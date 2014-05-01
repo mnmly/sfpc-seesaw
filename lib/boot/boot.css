@@ -1,5 +1,9 @@
 body, html {
   margin: 0;
   padding: 0;
-  background: black;
+  color: white;
+}
+
+.log {
+  font-family: monospace;
 }

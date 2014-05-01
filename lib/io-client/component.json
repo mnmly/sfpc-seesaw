@@ -1,0 +1,15 @@
+{
+  "name": "io-client",
+  "version": "0.9.16",
+  "dependencies": {
+    "visionmedia/superagent": "*",
+    "component/emitter": "*"
+  },
+  "scripts": [
+    "index.js",
+    "socket.io.js"
+  ],
+  "styles":[],
+  "locals": []
+}
+

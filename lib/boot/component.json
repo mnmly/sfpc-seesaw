@@ -1,7 +1,9 @@
 {
   "name": "boot",
   "dependencies": {
-    "component/emitter": "*"
+    "mnmly/remap": "*",
+    "component/emitter": "*",
+    "component/events": "*"
   },
   "scripts": [
     "index.js"
@@ -9,6 +11,9 @@
   "styles":[
     "boot.css"
   ],
-  "locals": [],
+  "locals": [
+    "controller",
+    "io-client"
+  ],
   "paths": []
 }

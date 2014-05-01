@@ -8,6 +8,14 @@
     "koa-route": "~1.0.2",
     "debug": "~0.7.4",
     "mini-livereload": "git://github.com/mnmly/mini-livereload",
-    "mnml-build": "git://github.com/mnmly/mnml-build#0.1.2"
+    "mnml-build": "git://github.com/mnmly/mnml-build#0.1.2",
+    "koa-mount": "~1.2.5",
+    "socket.io": "~1.0.0-pre2",
+    "serialport": "~1.4.0",
+    "firmata": "~0.3.3",
+    "johnny-five": "~0.7.31",
+    "pad-component": "0.0.1",
+    "remap": "git://github.com/mnmly/remap",
+    "throttleit": "0.0.2"
   }
 }
