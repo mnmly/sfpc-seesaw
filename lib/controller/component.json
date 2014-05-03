@@ -9,6 +9,8 @@
     "index.js"
   ],
   "styles":[],
-  "locals": []
+  "locals": [
+    "spacebrew"
+  ]
 }
 

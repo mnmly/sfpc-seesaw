@@ -13,6 +13,8 @@
     "socket.io": "~1.0.0-pre2",
     "pad-component": "0.0.1",
     "remap": "git://github.com/mnmly/remap",
-    "throttleit": "0.0.2"
+    "throttleit": "0.0.2",
+    "ws": "~0.4.31",
+    "component-each": "~0.2.2"
   }
 }

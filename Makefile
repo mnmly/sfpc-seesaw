@@ -12,7 +12,7 @@ serve:
 	@NODE_PATH=lib n use 0.11.11 --harmony server.js
 
 start:
-	@NODE_ENV=production PORT=4100 forever start -c ./start-up.sh sfpc.js
+	@NODE_PATH=lib NODE_ENV=production PORT=4100 forever start -c ./start-up.sh sfpc.js
 
 stop:
 	@forever stop -c ./start-up.sh sfpc.js

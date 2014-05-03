@@ -1,0 +1,13 @@
+{
+  "name": "welcome",
+  "dependencies": {},
+  "scripts": [
+    "index.js"
+  ],
+  "styles":[],
+  "locals": [],
+  "templates": [
+    "template.html"
+  ]
+}
+
