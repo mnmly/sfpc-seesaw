@@ -3,7 +3,7 @@ STYL = $(wildcard lib/*/*.styl)
 JSON = $(wildcard lib/*/component.json)
 
 build: components $(SRC) $(STYL) $(JSON)
-	@n use 0.11.11 --harmony ./node_modules/mnml-build/bin/builder
+	@n use 0.11.11 --harmony ./node_modules/mnml-build/bin/builder --dev
 
 components: component.json
 	@component install --dev

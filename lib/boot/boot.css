@@ -6,4 +6,10 @@ body, html {
 
 .log {
   font-family: monospace;
+  display: none;
+}
+
+
+.debug {
+  display: block;
 }
