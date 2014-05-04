@@ -2,6 +2,8 @@ body, html {
   margin: 0;
   padding: 0;
   color: white;
+  height: 100%;
+  position: relative;
 }
 
 .log {
@@ -12,4 +14,32 @@ body, html {
 
 .debug {
   display: block;
+}
+
+p, small {
+  font-weight: 300;
+}
+
+small {
+  opacity: 0.5;
+}
+
+.message {
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  transform: translate3d(-50%, -50%, 0) rotate(90deg);
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+.message-content {
+  position: absolute;
+  top: 75%;
+  height: 100%;
+  width: 100%;
+  transform: translate3d(0, -50%, 0);
 }

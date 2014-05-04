@@ -1,0 +1,18 @@
+{
+  "name": "seesaw",
+  "dependencies": {
+    "component/query": "*",
+    "component/domify": "*"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles":[
+    "seesaw.css"
+  ],
+  "locals": []
+}
+

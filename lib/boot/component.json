@@ -13,7 +13,8 @@
   ],
   "locals": [
     "controller",
-    "io-client"
+    "io-client",
+    "seesaw"
   ],
   "paths": []
 }
