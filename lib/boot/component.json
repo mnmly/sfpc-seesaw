@@ -3,7 +3,8 @@
   "dependencies": {
     "mnmly/remap": "*",
     "component/emitter": "*",
-    "component/events": "*"
+    "component/events": "*",
+    "jkroso/prefix": "*"
   },
   "scripts": [
     "index.js"

@@ -11,17 +11,21 @@ var port = process.env.PORT || 3000;
 var serve = require('koa-static');
 var mount = require('koa-mount');
 var route = require('koa-route');
-var build = require('mnml-build').middleware({dev: true});
 var throttle = require('throttleit');
-var livereload = require('koa-livereload');
 var server;
 
 if('development' === app.env){
+
   var mini = require('mini-livereload')();
+  var livereload = require('koa-livereload');
+  var build = require('mnml-build').middleware({dev: true});
+
   app.use(build);
   app.use(livereload());
+
   mini.listen(35729);
   app.use(serve(__dirname + '/lib'));
+
 }
 
 /**
@@ -41,12 +45,20 @@ app.use(route.get('/', function *(){
 }));
 
 /**
- * Listen the port
+ * Create server
  */
 
 server = http.createServer(app.callback());
 
+/**
+ * Setup io.
+ */
+
 io(server, app);
+
+/**
+ * Listen the port
+ */
 
 server.listen(port);
 console.log('App is running at PORT: %s', port);
