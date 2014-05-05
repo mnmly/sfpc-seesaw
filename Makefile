@@ -17,11 +17,10 @@ start:
 stop:
 	@forever stop -c ./start-up.sh sfpc.js
 
-
 install: package.json
 	@npm install
 
 clean:
-	rm -fr build components
+	rm -fr build components node_modules
 
 .PHONY: clean
