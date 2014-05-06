@@ -1,5 +1,5 @@
 {
-  "name": "arduino-balance-app",
+  "name": "sfpc-seesaw",
   "version": "0.0.1",
   "dependencies": {
     "koa-static": "~1.4.3",

@@ -1,11 +1,7 @@
 {
-  "name": "boilerplate",
-  "repo": "mnmly/boilerplate",
-  "description": "Boilerplate",
+  "name": "sfpc-seesaw-client",
+  "description": "SFPC Seesaw project client",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
-  "development": {},
   "license": "MIT",
   "main": "index.js",
   "paths": ["lib"],
