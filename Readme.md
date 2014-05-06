@@ -7,8 +7,10 @@
 
   At final event for SFPC in NYC, I skyped a friend in Portland and have him played the game while taking a video of seesaw so he can see it :)
 
-  Simultaneously You need run `sfpc-seesaw-arduino`.
-  It will be responsible for recieving the tilt infomation from this app and reflecting the change on arduino's servo.
+  Use in combination with [sfpc-seesaw-arduino](https://github.com/mnmly/sfpc-seesaw-arduino),
+  which will be responsible for recieving the tilt infomation from this app and reflecting the change on arduino's servo.
+
+  ![](http://c.mnmly.com/VMaR/Image%202014-05-05%20at%2010.48.08%20PM.png)
 
 ## Installation
 
