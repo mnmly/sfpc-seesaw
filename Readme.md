@@ -9,7 +9,8 @@
 
   Use in combination with [sfpc-seesaw-arduino](https://github.com/mnmly/sfpc-seesaw-arduino),
   which will be responsible for recieving the tilt infomation from this app and reflecting the change on arduino's servo.
-
+  
+  ![](http://c.mnmly.com/Ve5d/diagram.gif)
   ![](http://c.mnmly.com/VMaR/Image%202014-05-05%20at%2010.48.08%20PM.png)
   ![](http://c.mnmly.com/VNNe/controller.png)
 
